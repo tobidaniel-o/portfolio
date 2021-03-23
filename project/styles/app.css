@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap");
+
+/* font-family: 'Ibarra Real Nova', serif; */
+
+/* <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;600;700&display=swap" rel="stylesheet">  */
+
+/* <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">  */
+
+/* font-family: 'Public Sans', sans-serif; */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  background-color: #fafafa;
+  font-size: 1.6rem;
+}
+
+.wrapper {
+  max-width: 960px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  /* margin-top: 3.2rem; */
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+
+span {
+  display: block;
+}
+
+ul {
+  display: none;
+}
+ul li {
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.homepageImage {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Ibarra Real Nova", serif;
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 4rem;
+  color: #203a4c;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  letter-spacing: 0.3rem;
+  outline: none;
+  border: none;
+  padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+}
+
+.downArrow {
+  display: inline-block;
+  padding: 0 1.5rem;
+}
+
+.btn-normal {
+  background-color: #203a4c;
+  color: #d8d8d8;
+  padding-left: 0;
+}
