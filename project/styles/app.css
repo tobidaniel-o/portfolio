@@ -48,7 +48,6 @@ h2 {
   line-height: 50px;
   font-size: 4rem;
   color: #203a4c;
-
 }
 
 h3 {
@@ -184,3 +183,32 @@ footer {
 .socials img {
   margin: 4.5rem 0.5rem 5rem;
 }
+
+/* PORFOLIO STYLINGS */
+/* FIRST PROJECT */
+
+.projectDetails {
+  margin-top: 4rem;
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.projectDetails p {
+  color: #716868;
+  line-height: 3rem;
+  font-weight: 100;
+  margin-bottom: 3rem;
+}
+
+.viewProjectBtn {
+  margin-bottom: 4rem;
+}
+
+
+/* SECOND PROJECT */
+.secondProject, .thirdProject, .fourthProject {
+  margin-top: 8rem;
+  border-top: 1px solid #d8d8d8;
+}
+
+/* THIRD PROJECT */
