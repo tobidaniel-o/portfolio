@@ -27,10 +27,65 @@ body {
   margin: 0 auto;
 }
 
+/* HEADINGS */
+h1,
+h2,
+h3 {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+h1 {
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 4rem;
+  color: #203a4c;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-weight: 500;
+  line-height: 50px;
+  font-size: 4rem;
+  color: #203a4c;
+  
+  /* padding: 3rem 0; */
+}
+
+h3 {
+  font-weight: 500;
+  line-height: 50px;
+  font-size: 4rem;
+  /* text-align: center; */
+}
+
+/* BUTTON */
+.btn {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  letter-spacing: 0.3rem;
+  outline: none;
+  border: none;
+}
+
+.btn-primary-normal {
+  background-color: #203a4c;
+  color: #d8d8d8;
+  padding-left: 0;
+  padding: 1.5rem 4rem 1.5rem 0rem;
+}
+
+.btn-secondary-normal {
+  border: 1px solid #33323d;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  background-color: #fafafa;
+}
+
+/* HEADER */
+
 header {
   /* margin-top: 3.2rem; */
 }
-
 .navContainer {
   display: flex;
   justify-content: space-between;
@@ -54,27 +109,8 @@ a {
   text-decoration: none;
 }
 
-.homepageImage {
+img {
   width: 100%;
-}
-
-h1 {
-  font-family: "Ibarra Real Nova", serif;
-  font-weight: 700;
-  line-height: 50px;
-  font-size: 4rem;
-  color: #203a4c;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.btn {
-  text-transform: uppercase;
-  font-size: 1.3rem;
-  letter-spacing: 0.3rem;
-  outline: none;
-  border: none;
-  padding: 1.5rem 3.5rem 1.5rem 3.5rem;
 }
 
 .downArrow {
@@ -82,8 +118,41 @@ h1 {
   padding: 0 1.5rem;
 }
 
-.btn-normal {
-  background-color: #203a4c;
-  color: #d8d8d8;
-  padding-left: 0;
+/* ABOUT SECTION */
+.about {
+  margin-top: 9rem;
+}
+
+.aboutMe {
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+  margin-top: 3.5rem;
+  padding-bottom: 3rem 0;
+}
+
+.aboutMe h2 {
+  padding: 3rem 0;
+}
+
+.aboutMe p {
+  color: #716868;
+  line-height: 3rem;
+  font-weight: 100;
+  margin-bottom: 3rem;
+}
+
+.aboutBtn {
+  margin-bottom: 5rem;
+}
+
+
+/* CONTACT ME */
+.contactMe {
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 7rem;
+}
+
+.contactMeBtn {
+  margin-top: 3.5rem;
 }
