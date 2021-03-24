@@ -48,15 +48,13 @@ h2 {
   line-height: 50px;
   font-size: 4rem;
   color: #203a4c;
-  
-  /* padding: 3rem 0; */
+
 }
 
 h3 {
   font-weight: 500;
   line-height: 50px;
   font-size: 4rem;
-  /* text-align: center; */
 }
 
 /* BUTTON */
@@ -109,7 +107,9 @@ a {
   text-decoration: none;
 }
 
-img {
+/* IMAGE STYLING */
+.homepageImage,
+.imgContainer img {
   width: 100%;
 }
 
@@ -145,7 +145,6 @@ img {
   margin-bottom: 5rem;
 }
 
-
 /* CONTACT ME */
 .contactMe {
   text-align: center;
@@ -155,4 +154,33 @@ img {
 
 .contactMeBtn {
   margin-top: 3.5rem;
+}
+
+/* FOOTER */
+footer {
+  color: #fafafa;
+  background-color: #33323d;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.footerNav {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+}
+
+.footerNav li {
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  margin-top: 4.5rem;
+}
+
+.footerNav li a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.socials img {
+  margin: 4.5rem 0.5rem 5rem;
 }
