@@ -23,7 +23,7 @@ body {
 
 .wrapper {
   max-width: 960px;
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -76,17 +76,23 @@ h3 {
   padding: 1.5rem 4rem 1.5rem 0rem;
 }
 
+.btn-primary-normal:hover,
+.btn-primary-normal:focus {
+  background-color: #5fb4a2;
+}
+
 .btn-secondary-normal {
   border: 1px solid #33323d;
   padding: 1.5rem 2rem 1.5rem 2rem;
   background-color: #fafafa;
+  color: #33323d;
 }
 
+.btn.btn-secondary-normal:hover {
+  background-color: #33323d;
+  color: #fafafa;
+}
 /* HEADER */
-
-header {
-  /* margin-top: 3.2rem; */
-}
 .navContainer {
   display: flex;
   justify-content: space-between;
@@ -104,10 +110,15 @@ ul {
 ul li {
   text-transform: uppercase;
   display: inline-block;
+ 
 }
 
 a {
   text-decoration: none;
+}
+.nav li a:hover,
+.nav li a:focus {
+  color: #5fb4a2;
 }
 
 .contactMe a,
@@ -118,6 +129,10 @@ a {
 /* IMAGE STYLING */
 .homepageImage,
 .imgContainer img {
+  width: 100%;
+}
+
+.homepageImageMobile {
   width: 100%;
 }
 
@@ -153,6 +168,9 @@ a {
   margin-bottom: 5rem;
 }
 
+.aboutBtn:hover {
+  color: #fafafa;
+}
 /* CONTACT ME */
 .contactMe {
   text-align: center;
@@ -279,6 +297,7 @@ footer {
   background-color: #203a4c;
   color: #fafafa;
   margin-bottom: 7rem;
+  padding: 1.5rem 2rem 1.5rem 2rem;
 }
 
 /* MEDIA QUERIES */
@@ -345,21 +364,27 @@ footer {
   .contactMe {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .contactMe a,
   .aboutMe a {
     color: #222222;
+    width:17%;
   }
 
   .contactMe h3 {
     flex-grow: 2;
     text-align: left;
+    width: 40%;
   }
 
   .contactMeBtn {
-    width: 35%;
-    height: -moz-max-content;
+  margin-top: 0;
+}
+  .contactMeBtn {
+    /* width: 35%; */
+    /* height: -moz-max-content; */
   }
 
   .firstProject,
@@ -423,20 +448,6 @@ footer {
     justify-content: space-between;
     align-items: center;
   }
-
-  .firstContactSection,.contactMeForm {
-    display: flex;
-    justify-content: space-between;
-    padding: 4rem 0;
-  }
-
-  .firstContactSection h2, .contactMeForm h2 {
-    padding: 0;
-  }
-
-  .getInTouchContainer, form {
-    width: 60%;
-  }
 }
 
 /* Desktop Styles */
@@ -458,6 +469,23 @@ footer {
   .about {
     margin-top: 15rem;
   }
+
+  .firstContactSection,
+  .contactMeForm {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+  }
+
+  .firstContactSection h2,
+  .contactMeForm h2 {
+    padding: 0;
+  }
+
+  .getInTouchContainer,
+  form {
+    width: 60%;
+  }
 }
 
 @media only screen and (min-width: 1021px) {
@@ -465,7 +493,21 @@ footer {
     width: 50%;
     top: 65rem;
   }
-  /* .homepageImage {
-    display: none;
-  } */
+
+  .firstContactSection,
+  .contactMeForm {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+  }
+
+  .firstContactSection h2,
+  .contactMeForm h2 {
+    padding: 0;
+  }
+
+  .getInTouchContainer,
+  form {
+    width: 60%;
+  }
 }
