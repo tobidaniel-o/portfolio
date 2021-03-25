@@ -304,7 +304,7 @@ footer {
   /* FOOTER */
 }
 
-@media (min-width: 768px) and (max-width: 960px) {
+@media (min-width: 768px) {
   /* HOME */
   header {
     position: relative;
@@ -372,7 +372,8 @@ footer {
     height: -moz-max-content;
   }
 
-  .firstProject, .thirdProject {
+  .firstProject,
+  .thirdProject {
     display: flex;
     justify-content: space-between;
     margin-top: 10rem;
@@ -392,7 +393,8 @@ footer {
     margin-top: 0;
   }
 
-  .secondProject, .fourthProject {
+  .secondProject,
+  .fourthProject {
     display: flex;
     flex-direction: row-reverse;
     border-top: none;
@@ -400,16 +402,8 @@ footer {
   }
 
   .thirdProject {
-    border:none
+    border: none;
   }
-
-
-
-
-
-
-
-
 
   footer {
     padding: 0;
@@ -442,13 +436,40 @@ footer {
 }
 
 /* Desktop Styles */
-@media only screen and (min-width: 960px) {
-  /* body {
-    background-color: #b2d6ff; 
-  } */
-  /* Blue */
+@media only screen and (min-width: 960px) and (max-width: 972px) {
+  .introWrapper {
+    background-color: #fafafa;
+    position: absolute;
+    width: 51%;
+    top: 46rem;
+    height: 27vh;
+  }
 }
 
+@media only screen and (min-width: 973px) and (max-width: 1020px) {
+  .introWrapper {
+    top: 58rem;
+  }
+
+  .about {
+    margin-top: 15rem;
+  }
+}
+
+@media only screen and (min-width: 1021px) {
+  /* .introWrapper {
+    top: 61rem;
+    padding-bottom: 8.5rem;
+  } */
+
+  .introWrapper {
+    width: 50%;
+    top: 56rem;
+    padding-bottom: 8.5rem;
+    /* top: 56rem;
+    padding-bottom: 8.5rem; */
+  }
+}
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 }
