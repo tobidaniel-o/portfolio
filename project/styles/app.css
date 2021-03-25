@@ -17,8 +17,8 @@ html {
 
 body {
   font-family: "Public Sans", sans-serif;
-  background-color: #fafafa;
   font-size: 1.6rem;
+  background-color: #fafafa;
 }
 
 .wrapper {
@@ -204,11 +204,218 @@ footer {
   margin-bottom: 4rem;
 }
 
-
 /* SECOND PROJECT */
-.secondProject, .thirdProject, .fourthProject {
+.secondProject,
+.thirdProject,
+.fourthProject {
   margin-top: 8rem;
   border-top: 1px solid #d8d8d8;
 }
 
-/* THIRD PROJECT */
+/* CONTACT */
+.firstContactSection {
+  margin-top: 5rem;
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.firstContactSection h2 {
+  padding: 2rem 0;
+}
+
+.getInTouchContainer p {
+  color: #716868;
+  line-height: 3rem;
+  font-weight: 100;
+  font-size: 1.4rem;
+}
+
+.getInTouchContainer .socials img {
+  margin-top: 2rem;
+  margin-left: 0;
+  margin-bottom: 2.5rem;
+}
+
+/* FORM */
+.contactMeForm h2 {
+  padding: 3rem 0;
+}
+.contactMeForm textarea {
+  font-family: "Public Sans", sans-serif;
+  resize: none;
+}
+
+.contactMeForm input,
+.contactMeForm textarea {
+  font-size: 1.3rem;
+  background-color: #d8d8d8;
+  outline: none;
+  border: none;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.contactMeForm label {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #716868;
+  padding: 1.3rem 0;
+}
+.contactMeForm input,
+.contactMeForm textarea {
+  width: 100%;
+}
+
+.sendMeBtn {
+  background-color: #203a4c;
+  color: #fafafa;
+  margin-bottom: 7rem;
+}
+
+/* MEDIA QUERIES */
+/* Portrait tablet and small desktops */
+/* Large desktop */
+@media (min-width: 1201px) {
+  /* body {
+    background-color: green;
+  } */
+}
+
+@media (max-width: 1200px) {
+  /* body {
+    background-color: #716868;
+  } */
+}
+
+@media (max-width: 940px) {
+  /* body {
+    background-color: #b2d6ff;
+  } */
+  /* Blue */
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  /* HOME */
+  header {
+    position: relative;
+  }
+  .introWrapper {
+    background-color: #fafafa;
+    position: absolute;
+    width: 75%;
+    top: 38rem;
+  }
+
+  .about {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .aboutMe {
+    width: 52%;
+    margin-top: 0;
+  }
+
+  .imgContainer {
+    width: 40%;
+  }
+
+  .imgContainer img {
+    height: 100%;
+    object-position: contain;
+  }
+
+  /* NAVIGATION */
+  .hamburger {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  .nav li a {
+    font-size: 1.3rem;
+    color: #716868;
+    margin-left: 4rem;
+  }
+
+  /* CONTACT ME */
+
+  .contactMe {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contactMe a,
+  .aboutMe a {
+    color: #222222;
+  }
+
+  .contactMe h3 {
+    flex-grow: 2;
+    text-align: left;
+  }
+
+  .contactMeBtn {
+    width: 35%;
+    height: -moz-max-content;
+  }
+  /* FOOTER */
+  footer {
+    padding: 0;
+    text-align: unset;
+  }
+
+  .footerContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footerLogoContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerNav {
+    flex-direction: row;
+  }
+
+  .footerNav li {
+    margin-left: 4rem;
+    margin-top: 0;
+  }
+
+  .footerContainer {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* Landscape phones and down */
+/* @media (max-width: 480px) {
+  body {
+    background-color: #f09a9d;
+  }
+} */
+
+@media only screen and (max-width: 400px) {
+  /* body {
+    background-color: #f09a9d; 
+   
+  } */
+  /* Red */
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  /* body {
+    background-color: #b2d6ff; 
+  } */
+  /* Blue */
+}

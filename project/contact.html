@@ -1,16 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="stylesheet" href="../project/styles/setup.css">
+  <link rel="stylesheet" href="../project/styles/app.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Contact Me</title>
-</head>
-<body>
+  <script src="https://kit.fontawesome.com/ad26f8493a.js" crossorigin="anonymous"></script>
 
-  Home
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="navContainer">
+        <span class="logo">
+          <img src="../project/images/logo.svg" alt="logo">
+        </span>
+        <span class="hamburger">
+          <img src="../project/images/icons/hamburger.svg" alt="hamburger menu">
+        </span>
+        <ul class="nav">
+          <li><a href="index.html">home</a> </li>
+          <li><a href="portfolio.html">portfolio</a></li>
+          <li><a href="contact.html">contact me</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="firstContactSection">
+        <h2>Get in Touch</h2>
+        <div class="getInTouchContainer">
+          <p>I’d love to hear about what you’re working on and how I could help. I’m currently
+            looking for a new role and am open to a wide range of opportunities. My preference
+            would be to find a position in a company in Ontario, Canada. But I’m also happy to hear about
+            opportunites that don’t fit that description. I’m a hard-working and positive person
+            who will always approach each task with a sense of purpose and attention to detail.
+            Please do feel free to check out my online profiles below and get in touch using the form.</p>
+          <div class="socials">
+            <a href="#"><img src="../project/images/icons/github.svg" alt="GitHub icon"></a>
+            <a href="#"><img src="../project/images/icons/twitter.svg" alt="Twitter icon"></a>
+            <a href="#"><img src="../project/images/icons/linkedin.svg" alt="LinkedIn icon"></a>
+          </div>
+        </div>
+      </section>
+      <section class="contactMeForm">
+        <h2>Contact Me</h2>
+        <form action="#">
+          <label for="name">
+            Name
+          </label>
+          <input type="text" id="name" name="name" class="input" placeholder="John Doe">
+
+          <label for="name">
+            Email Address
+          </label>
+          <input type="email" id="email" name="email" class="input" placeholder="email@example.com">
+
+          <label for="message">
+            Message
+          </label>
+          <textarea name="message" id="message" cols="30" rows="5" placeholder="How can I help?"></textarea>
+          <button class="btn btn-secondary-normal sendMeBtn">send message</button>
+        </form>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <div class="wrapper">
+      <div class="footerContainer">
+        <div class="footerLogoContact">
+          <img src="../project/images/logo-white.svg" alt="logo">
+          <ul class="footerNav">
+            <li><a href="index.html">home</a> </li>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="contact.html">contact me</a></li>
+          </ul>
+        </div>
+
+        <div class="socials">
+          <a href="#"><img src="../project/images/icons/github-white.svg" alt="GitHub icon"></a>
+          <a href="#"><img src="../project/images/icons/twitter-white.svg" alt="Twitter icon"></a>
+          <a href="#"><img src="../project/images/icons/linkedin-white.svg" alt="LinkedIn icon"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../starter-code/script/app.js"></script>
+
+  <!-- Home
   Portfolio
   Contact Me
 
@@ -34,7 +114,8 @@
   Message
   How can I help?
 
-  Send Message
+  Send Message -->
 
 </body>
+
 </html>
