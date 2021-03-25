@@ -55,6 +55,10 @@ h3 {
   line-height: 50px;
   font-size: 4rem;
 }
+.homepageImageTablet,
+.homepageImageDesktop {
+  display: none;
+}
 
 /* BUTTON */
 .btn {
@@ -280,34 +284,20 @@ footer {
 /* MEDIA QUERIES */
 /* Portrait tablet and small desktops */
 /* Large desktop */
-@media (min-width: 1201px) {
-  /* body {
-    background-color: green;
-  } */
-}
-
-@media (max-width: 1200px) {
-  /* body {
-    background-color: #716868;
-  } */
-}
-
-@media (max-width: 940px) {
-  /* body {
-    background-color: #b2d6ff;
-  } */
-  /* Blue */
-}
-
-/* Landscape phone to portrait tablet */
-@media (min-width: 550px) {
-  /* FOOTER */
-}
 
 @media (min-width: 768px) {
   /* HOME */
   header {
     position: relative;
+  }
+
+  .homepageImageMobile {
+    display: none;
+  }
+
+  .homepageImageTablet {
+    display: block;
+    width: 100%;
   }
   .introWrapper {
     background-color: #fafafa;
@@ -433,6 +423,20 @@ footer {
     justify-content: space-between;
     align-items: center;
   }
+
+  .firstContactSection,.contactMeForm {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+  }
+
+  .firstContactSection h2, .contactMeForm h2 {
+    padding: 0;
+  }
+
+  .getInTouchContainer, form {
+    width: 60%;
+  }
 }
 
 /* Desktop Styles */
@@ -457,19 +461,11 @@ footer {
 }
 
 @media only screen and (min-width: 1021px) {
-  /* .introWrapper {
-    top: 61rem;
-    padding-bottom: 8.5rem;
-  } */
-
   .introWrapper {
     width: 50%;
-    top: 56rem;
-    padding-bottom: 8.5rem;
-    /* top: 56rem;
-    padding-bottom: 8.5rem; */
+    top: 65rem;
   }
-}
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+  /* .homepageImage {
+    display: none;
+  } */
 }
