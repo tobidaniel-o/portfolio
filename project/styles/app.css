@@ -350,6 +350,10 @@ footer {
     position: relative;
   }
 
+  .hamburger {
+    display: none;
+  }
+
   .homepageImageMobile {
     display: none;
   }
@@ -499,6 +503,9 @@ footer {
     top: 46rem;
     height: 27vh;
   }
+  /* span.hamburger {
+    display: none;
+  } */
 }
 
 @media only screen and (min-width: 973px) and (max-width: 1020px) {
@@ -526,6 +533,9 @@ footer {
   form {
     width: 60%;
   }
+  /* span.hamburger {
+    display: none;
+  } */
 }
 
 @media only screen and (min-width: 1021px) {
@@ -550,4 +560,7 @@ footer {
   form {
     width: 60%;
   }
+  /* span.hamburger {
+    display: none;
+  } */
 }
