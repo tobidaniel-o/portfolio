@@ -51,8 +51,7 @@ body {
 .menu ul {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* text-align: center; */
+
   margin: 4rem auto;
   align-items: center;
 }
@@ -274,7 +273,7 @@ footer {
 /* SECOND PROJECT */
 .secondProject,
 .thirdProject,
-.fourthProject {
+.fourthProject, .fifthProject {
   margin-top: 8rem;
   border-top: 1px solid #d8d8d8;
 }
@@ -427,9 +426,8 @@ footer {
     margin-top: 0;
   }
 
-
   .firstProject,
-  .thirdProject {
+  .thirdProject, .fifthProject  {
     display: flex;
     justify-content: space-between;
     margin-top: 10rem;
