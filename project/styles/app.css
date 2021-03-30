@@ -69,10 +69,8 @@ h1 {
   font-weight: 700;
   line-height: 8rem;
   font-size: 4rem;
-  /* font-size: 7rem; */
   color: #203a4c;
-  /* margin-top: 3rem;
-  margin-bottom: 3rem; */
+ 
 }
 
 h2 {
@@ -93,8 +91,7 @@ h3 {
 }
 
 .introWrapper {
-  /* text-align: center;
-  padding-top: 2rem; */
+  
 
   height: 30vh;
   display: flex;
@@ -109,12 +106,7 @@ h3 {
   padding-bottom: 3rem;
 }
 
-p {
-}
-/* span {
-  display: block;
-  font-size: 3rem;
-} */
+
 /* BUTTON */
 .btn {
   text-transform: uppercase;
@@ -291,7 +283,6 @@ footer {
 .fourthProject,
 .fifthProject {
   margin-top: 8rem;
-  /* border-top: 1px solid #d8d8d8; */
 }
 
 /* CONTACT */
@@ -377,12 +368,7 @@ footer {
     display: block;
     width: 100%;
   }
-  /* .introWrapper {
-    background-color: #fafafa;
-    position: absolute;
-    width: 75%;
-    top: 38rem;
-  } */
+  
 
   .introWrapper {
     width: 100%;
@@ -514,21 +500,13 @@ footer {
   .introWrapper {
     background-color: #fafafa;
     position: absolute;
-    /* width: 51%; */
-    /* top: 46rem;
-    height: 27vh; */
+   
   }
-  /* span.hamburger {
-    display: none;
-  } */
+ 
 }
 
 @media only screen and (min-width: 973px) and (max-width: 1020px) {
-  .introWrapper {
-    /* top: 58rem; */
-    /* margin: 0 auto;
-    height: 100vh; */
-  }
+  
 
   .about {
     margin-top: 15rem;
@@ -550,16 +528,11 @@ footer {
   form {
     width: 60%;
   }
-  /* span.hamburger {
-    display: none;
-  } */
+  
 }
 
 @media only screen and (min-width: 1021px) {
-  .introWrapper {
-    /* width: 50%; */
-    /* top: 65rem; */
-  }
+ 
 
   .firstContactSection,
   .contactMeForm {
@@ -577,7 +550,5 @@ footer {
   form {
     width: 60%;
   }
-  /* span.hamburger {
-    display: none;
-  } */
+ 
 }
