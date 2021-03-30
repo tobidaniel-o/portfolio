@@ -9,6 +9,7 @@ body {
   font-family: "Public Sans", sans-serif;
   font-size: 1.6rem;
   background-color: #fafafa;
+  padding: 0;
 }
 
 .wrapper {
