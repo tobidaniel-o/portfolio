@@ -76,11 +76,12 @@ h3 {
 
 h1 {
   font-weight: 700;
-  line-height: 50px;
+  line-height: 8rem;
   font-size: 4rem;
+  /* font-size: 7rem; */
   color: #203a4c;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  /* margin-top: 3rem;
+  margin-bottom: 3rem; */
 }
 
 h2 {
@@ -100,6 +101,29 @@ h3 {
   display: none;
 }
 
+.introWrapper {
+  /* text-align: center;
+  padding-top: 2rem; */
+
+  height: 30vh;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 9rem;
+}
+
+.introWrapper p {
+  font-size: 2.4rem;
+  padding-bottom: 3rem;
+}
+
+p {
+}
+/* span {
+  display: block;
+  font-size: 3rem;
+} */
 /* BUTTON */
 .btn {
   text-transform: uppercase;
@@ -273,7 +297,8 @@ footer {
 /* SECOND PROJECT */
 .secondProject,
 .thirdProject,
-.fourthProject, .fifthProject {
+.fourthProject,
+.fifthProject {
   margin-top: 8rem;
   border-top: 1px solid #d8d8d8;
 }
@@ -361,13 +386,16 @@ footer {
     display: block;
     width: 100%;
   }
-  .introWrapper {
+  /* .introWrapper {
     background-color: #fafafa;
     position: absolute;
     width: 75%;
     top: 38rem;
-  }
+  } */
 
+  .introWrapper {
+    width: 100%;
+  }
   .about {
     display: flex;
     justify-content: space-between;
@@ -427,7 +455,8 @@ footer {
   }
 
   .firstProject,
-  .thirdProject, .fifthProject  {
+  .thirdProject,
+  .fifthProject {
     display: flex;
     justify-content: space-between;
     margin-top: 10rem;
@@ -494,9 +523,9 @@ footer {
   .introWrapper {
     background-color: #fafafa;
     position: absolute;
-    width: 51%;
-    top: 46rem;
-    height: 27vh;
+    /* width: 51%; */
+    /* top: 46rem;
+    height: 27vh; */
   }
   /* span.hamburger {
     display: none;
@@ -505,7 +534,9 @@ footer {
 
 @media only screen and (min-width: 973px) and (max-width: 1020px) {
   .introWrapper {
-    top: 58rem;
+    /* top: 58rem; */
+    /* margin: 0 auto;
+    height: 100vh; */
   }
 
   .about {
@@ -535,8 +566,8 @@ footer {
 
 @media only screen and (min-width: 1021px) {
   .introWrapper {
-    width: 50%;
-    top: 65rem;
+    /* width: 50%; */
+    /* top: 65rem; */
   }
 
   .firstContactSection,
