@@ -70,7 +70,6 @@ h1 {
   line-height: 8rem;
   font-size: 4rem;
   color: #203a4c;
- 
 }
 
 h2 {
@@ -83,7 +82,7 @@ h2 {
 h3 {
   font-weight: 500;
   line-height: 50px;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .homepageImageTablet,
 .homepageImageDesktop {
@@ -91,8 +90,6 @@ h3 {
 }
 
 .introWrapper {
-  
-
   height: 30vh;
   display: flex;
   justify-content: left;
@@ -105,7 +102,6 @@ h3 {
   font-size: 2.4rem;
   padding-bottom: 3rem;
 }
-
 
 /* BUTTON */
 .btn {
@@ -346,6 +342,28 @@ footer {
   padding: 1.5rem 2rem 1.5rem 2rem;
 }
 
+.skillSet {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5rem 0 0;
+  color: #203a4c;
+}
+
+.skillSet p {
+  font-size: 3.5rem;
+  font-family: "Ibarra Real Nova", serif;
+  margin-bottom: 3rem;
+}
+
+.skillsIcons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skillSet i {
+  font-size: 5rem;
+}
 /* MEDIA QUERIES */
 /* Portrait tablet and small desktops */
 /* Large desktop */
@@ -368,7 +386,6 @@ footer {
     display: block;
     width: 100%;
   }
-  
 
   .introWrapper {
     width: 100%;
@@ -500,14 +517,10 @@ footer {
   .introWrapper {
     background-color: #fafafa;
     position: absolute;
-   
   }
- 
 }
 
 @media only screen and (min-width: 973px) and (max-width: 1020px) {
-  
-
   .about {
     margin-top: 15rem;
   }
@@ -528,12 +541,9 @@ footer {
   form {
     width: 60%;
   }
-  
 }
 
 @media only screen and (min-width: 1021px) {
- 
-
   .firstContactSection,
   .contactMeForm {
     display: flex;
@@ -550,5 +560,4 @@ footer {
   form {
     width: 60%;
   }
- 
 }
