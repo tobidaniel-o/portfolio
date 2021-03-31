@@ -57,6 +57,9 @@ body {
   text-transform: uppercase;
   font-size: 1.3rem;
 }
+.imgContainer {
+  display: none;
+}
 
 /* HEADINGS */
 h1,
@@ -387,6 +390,7 @@ footer {
     width: 100%;
   }
 
+ 
   .introWrapper {
     width: 100%;
   }
@@ -402,6 +406,7 @@ footer {
 
   .imgContainer {
     width: 40%;
+    display: block;
   }
 
   .imgContainer img {
