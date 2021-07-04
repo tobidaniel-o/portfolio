@@ -1,181 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../project/styles/setup.css" />
+    <link rel="stylesheet" href="../project/styles/app.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../project/styles/setup.css">
-  <link rel="stylesheet" href="../project/styles/app.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-  <script src="https://kit.fontawesome.com/ad26f8493a.js" crossorigin="anonymous"></script>
-  <title>Project</title>
-</head>
+    <script
+      src="https://kit.fontawesome.com/ad26f8493a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Project</title>
+  </head>
 
-<body>
-
-  <div class="wrapper">
-    <header>
-      <div class="navContainer">
-        <span class="logo">
-          <img src="../project/images/logo.svg" alt="logo">
-        </span>
-        <span class="hamburger">
-          <img src="../project/images/icons/hamburger.svg" alt="hamburger menu">
-        </span>
-
-        <span class="close">
-          <img src="../project/images/icons/close.svg" alt="close menu">
-        </span>
-        <ul class="nav">
-          <li><a href="../index.html">home</a> </li>
-          <li><a href="portfolio.html">portfolio</a></li>
-          <li><a href="contact.html">contact me</a></li>
-        </ul>
-
-        <div class="menu">
-          <ul>
-            <li><a href="../index.html">home</a> </li>
-            <li><a href="portfolio.html">portfolio</a></li>
-            <li><a href="contact.html">contact me</a></li>
-          </ul>
-        </div>
-      </div>
-
-    </header>
-    <main>
-      <section class="firstProject">
-        <div class="projectImg">
-
-          <img class="homepageImage" src="../project/mockups/sunrun.jpg" alt="bookmark portfolio image">
-
-        </div>
-        <div class="projectDetails">
-          <h1>Sunrun</h1>
-          <p>This is an agency style group project. The application allows users to plan their runs based on sunlight.
-            This project was built using HTML5, CSS Grid, JavaScript, React and the Sunshine API.</p>
-          <a href=" https://arrayofsunshine.netlify.app/" target="_blank"><button
-              class="btn btn-secondary-normal viewProjectBtn">view live</button>
-          </a>
-          <a href="https://github.com/array-of-sunshine-2021/array-of-sunshine-api" target="_blank"><button
-              class="btn btn-secondary-normal viewProjectBtn">view
-              code</button>
-          </a>
-        </div>
-      </section>
-
-      <section class="secondProject">
-        <div class="projectImg">
-          <img class="homepageImage" src="../project/mockups/githubjobs.jpeg" alt="bookmark portfolio image">
-
-        </div>
-        <div class="projectDetails">
-          <h1>GithubJobs</h1>
-          <p>This project is built using the Lever API. The app allows users to search for jobs based on their
-            location, department and term. App was built using HTML5, CSS Grid, Flexbox, React and JavaScript </p>
-          <a href="https://githubjobsdreams.netlify.app/" target="_blank"><button
-              class="btn btn-secondary-normal viewProjectBtn">view
-              live</button>
-          </a>
-          <a href="https://github.com/tobidaniel-o/github-jobs" target="_blank"><button
-              class="btn btn-secondary-normal viewProjectBtn">view
-              code</button>
-          </a>
-        </div>
-      </section>
-
-      <section class="thirdProject">
-        <div class="projectImg">
-
-          <img class="homepageImage" src="../project/mockups/sactuary.jpeg" alt="bookmark portfolio image">
-        </div>
-        <div class="projectDetails">
-          <h1>Sanctuary Helpers</h1>
-          <p>This project required me to build a fully responsive landing page to the PSD designs provided.
-            I used HTML5, along with CSS Grid, SCSS.</p>
-          <a href="https://tobidaniel-o.github.io/sanctuary-helpers/" target="_blank"><button
-              class="btn btn-secondary-normal viewProjectBtn">view live</button>
-          </a>
-          <a href="https://github.com/tobidaniel-o/sanctuary-helpers" target="_blank"><button
-              class="btn btn-secondary-normal viewProjectBtn">view
-              code</button>
-          </a>
-        </div>
-      </section>
-
-      <section class="fourthProject">
-        <div class="projectImg">
-
-          <img class="homepageImage" src="../project/mockups/MiMovie.jpeg" alt="bookmark portfolio image">
-        </div>
-        <div class="projectDetails">
-          <h1>MiMovie</h1>
-          <p>This project is a fully responsive web application. The project uses the MovieDB API to
-            fetch movies based on the user's preferred genres.</p>
-          <a href="https://mimovie.netlify.app/" target="_blank"><button
-              class="btn btn-secondary-normal viewProjectBtn">view live</button>
-          </a>
-          <a href="https://github.com/tobidaniel-o/movieDatabase" target="_blank"><button
-              class="btn btn-secondary-normal viewProjectBtn">view
-              code</button>
-          </a>
-        </div>
-      </section>
-
-      <section class="fifthProject">
-        <div class="projectImg">
-          <img class="homepageImage" src="../project/mockups/nexter.jpeg" alt="Dream Home">
-        </div>
-        <div class="projectDetails">
-          <h1>Nexter</h1>
-          <p>This project was inspired by a UDEMY course by Jonas Schmedtmann. It required me to build a fully
-            responsive landing page to the designs provided.
-            I used HTML5, along with CSS Grid and Flexbox.</p>
-          <a href="https://tobidaniel-o.github.io/Nexter/" target="_blank"><button
-              class="btn btn-secondary-normal viewProjectBtn">view
-              live</button>
-          </a>
-          <a href="https://github.com/tobidaniel-o/Nexter" target="_blank"><button
-              class="btn btn-secondary-normal viewProjectBtn">view
-              code</button>
-          </a>
-        </div>
-
-      </section>
-
-      <section class="contactMe">
-        <h3>Interested in doing a project together?</h3>
-        <a href="contact.html"><button class="btn btn-secondary-normal contactMeBtn">contact me</button></a>
-      </section>
-    </main>
-  </div>
-
-  <footer>
+  <body>
     <div class="wrapper">
-      <div class="footerContainer">
-        <div class="footerLogoContact">
-          <img src="../project/images/logo-white.svg" alt="logo">
-          <ul class="footerNav">
-            <li><a href="../index.html">home</a> </li>
+      <header>
+        <div class="navContainer">
+          <span class="logo">
+            <img src="../project/images/logo.svg" alt="logo" />
+          </span>
+          <span class="hamburger">
+            <img
+              src="../project/images/icons/hamburger.svg"
+              alt="hamburger menu"
+            />
+          </span>
+
+          <span class="close">
+            <img src="../project/images/icons/close.svg" alt="close menu" />
+          </span>
+          <ul class="nav">
+            <li><a href="../index.html">home</a></li>
             <li><a href="portfolio.html">portfolio</a></li>
             <li><a href="contact.html">contact me</a></li>
           </ul>
-        </div>
 
-        <div class="socials">
-          <a href="https://github.com/tobidaniel-o" target="_blank"><img src="../project/images/icons/github-white.svg"
-              alt="GitHub icon"></a>
-          <a href="https://twitter.com/tobidaniel_o" target="_blank"><img
-              src="../project/images/icons/twitter-white.svg" alt="Twitter icon"></a>
-          <a href="https://www.linkedin.com/in/tobi-okunuga-3879b61a8/" target="_blank"><img
-              src="../project/images/icons/linkedin-white.svg" alt="LinkedIn icon"></a>
+          <div class="menu">
+            <ul>
+              <li><a href="../index.html">home</a></li>
+              <li><a href="portfolio.html">portfolio</a></li>
+              <li><a href="contact.html">contact me</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="firstProject">
+          <div class="projectDetails">
+            <h1>AudioReel</h1>
+            <p>
+              This is a fully functional e-commerce website that sells a variety
+              of audio devices. The website was built using React, Redux,
+              ContextAPI and integrates Firebase for user authentication and
+              Stripe for payment.
+            </p>
+            <a href="https://audioreel.netlify.app/" target="_blank"
+              ><button class="btn btn-secondary-normal viewProjectBtn">
+                view live
+              </button>
+            </a>
+            <a
+              href="https://github.com/tobidaniel-o/audio-reel"
+              target="_blank"
+              ><button class="btn btn-secondary-normal viewProjectBtn">
+                view code
+              </button>
+            </a>
+          </div>
+
+          <div class="projectImg">
+            <img
+              class="homepageImage"
+              src="../project/mockups/audioreel.jpg"
+              alt="bookmark portfolio image"
+            />
+          </div>
+        </section>
+
+        <section class="firstProject">
+          <div class="projectImg">
+            <img
+              class="homepageImage"
+              src="../project/mockups/sunrun.jpg"
+              alt="bookmark portfolio image"
+            />
+          </div>
+          <div class="projectDetails">
+            <h1>Sunrun</h1>
+            <p>
+              This is an agency style group project. The application allows
+              users to plan their runs based on sunlight. This project was built
+              using HTML5, CSS Grid, JavaScript, React and the Sunshine API.
+            </p>
+            <a href=" https://arrayofsunshine.netlify.app/" target="_blank"
+              ><button class="btn btn-secondary-normal viewProjectBtn">
+                view live
+              </button>
+            </a>
+            <a
+              href="https://github.com/array-of-sunshine-2021/array-of-sunshine-api"
+              target="_blank"
+              ><button class="btn btn-secondary-normal viewProjectBtn">
+                view code
+              </button>
+            </a>
+          </div>
+        </section>
+
+        <section class="secondProject">
+          <div class="projectImg">
+            <img
+              class="homepageImage"
+              src="../project/mockups/githubjobs.jpeg"
+              alt="bookmark portfolio image"
+            />
+          </div>
+          <div class="projectDetails">
+            <h1>GithubJobs</h1>
+            <p>
+              This project is built using the Lever API. The app allows users to
+              search for jobs based on their location, department and term. App
+              was built using HTML5, CSS Grid, Flexbox, React and JavaScript
+            </p>
+            <a href="https://githubjobsdreams.netlify.app/" target="_blank"
+              ><button class="btn btn-secondary-normal viewProjectBtn">
+                view live
+              </button>
+            </a>
+            <a
+              href="https://github.com/tobidaniel-o/github-jobs"
+              target="_blank"
+              ><button class="btn btn-secondary-normal viewProjectBtn">
+                view code
+              </button>
+            </a>
+          </div>
+        </section>
+
+        <section class="thirdProject">
+          <div class="projectImg">
+            <img
+              class="homepageImage"
+              src="../project/mockups/sactuary.jpeg"
+              alt="bookmark portfolio image"
+            />
+          </div>
+          <div class="projectDetails">
+            <h1>Sanctuary Helpers</h1>
+            <p>
+              This project required me to build a fully responsive landing page
+              to the PSD designs provided. I used HTML5, along with CSS Grid,
+              SCSS.
+            </p>
+            <a
+              href="https://tobidaniel-o.github.io/sanctuary-helpers/"
+              target="_blank"
+              ><button class="btn btn-secondary-normal viewProjectBtn">
+                view live
+              </button>
+            </a>
+            <a
+              href="https://github.com/tobidaniel-o/sanctuary-helpers"
+              target="_blank"
+              ><button class="btn btn-secondary-normal viewProjectBtn">
+                view code
+              </button>
+            </a>
+          </div>
+        </section>
+
+        <section class="fourthProject">
+          <div class="projectImg">
+            <img
+              class="homepageImage"
+              src="../project/mockups/MiMovie.jpeg"
+              alt="bookmark portfolio image"
+            />
+          </div>
+          <div class="projectDetails">
+            <h1>MiMovie</h1>
+            <p>
+              This project is a fully responsive web application. The project
+              uses the MovieDB API to fetch movies based on the user's preferred
+              genres.
+            </p>
+            <a href="https://mimovie.netlify.app/" target="_blank"
+              ><button class="btn btn-secondary-normal viewProjectBtn">
+                view live
+              </button>
+            </a>
+            <a
+              href="https://github.com/tobidaniel-o/movieDatabase"
+              target="_blank"
+              ><button class="btn btn-secondary-normal viewProjectBtn">
+                view code
+              </button>
+            </a>
+          </div>
+        </section>
+
+        <section class="fifthProject">
+          <div class="projectImg">
+            <img
+              class="homepageImage"
+              src="../project/mockups/nexter.jpeg"
+              alt="Dream Home"
+            />
+          </div>
+          <div class="projectDetails">
+            <h1>Nexter</h1>
+            <p>
+              This project was inspired by a UDEMY course by Jonas Schmedtmann.
+              It required me to build a fully responsive landing page to the
+              designs provided. I used HTML5, along with CSS Grid and Flexbox.
+            </p>
+            <a href="https://tobidaniel-o.github.io/Nexter/" target="_blank"
+              ><button class="btn btn-secondary-normal viewProjectBtn">
+                view live
+              </button>
+            </a>
+            <a href="https://github.com/tobidaniel-o/Nexter" target="_blank"
+              ><button class="btn btn-secondary-normal viewProjectBtn">
+                view code
+              </button>
+            </a>
+          </div>
+        </section>
+
+        <section class="contactMe">
+          <h3>Interested in doing a project together?</h3>
+          <a href="contact.html"
+            ><button class="btn btn-secondary-normal contactMeBtn">
+              contact me
+            </button></a
+          >
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <div class="wrapper">
+        <div class="footerContainer">
+          <div class="footerLogoContact">
+            <img src="../project/images/logo-white.svg" alt="logo" />
+            <ul class="footerNav">
+              <li><a href="../index.html">home</a></li>
+              <li><a href="portfolio.html">portfolio</a></li>
+              <li><a href="contact.html">contact me</a></li>
+            </ul>
+          </div>
+
+          <div class="socials">
+            <a href="https://github.com/tobidaniel-o" target="_blank"
+              ><img
+                src="../project/images/icons/github-white.svg"
+                alt="GitHub icon"
+            /></a>
+            <a href="https://twitter.com/tobidaniel_o" target="_blank"
+              ><img
+                src="../project/images/icons/twitter-white.svg"
+                alt="Twitter icon"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/tobi-okunuga-3879b61a8/"
+              target="_blank"
+              ><img
+                src="../project/images/icons/linkedin-white.svg"
+                alt="LinkedIn icon"
+            /></a>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
-  <script src="../project/script/app.js"></script>
-
-</body>
-
+    </footer>
+    <script src="../project/script/app.js"></script>
+  </body>
 </html>
