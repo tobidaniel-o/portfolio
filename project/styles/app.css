@@ -269,11 +269,11 @@ footer {
   color: #716868;
   line-height: 3rem;
   font-weight: 100;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .viewProjectBtn {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 /* SECOND PROJECT */
@@ -431,6 +431,8 @@ footer {
 
   /* CONTACT ME */
 
+  
+
   .contactMe {
     display: flex;
     justify-content: space-between;
@@ -476,7 +478,7 @@ footer {
   }
 
   .secondProject,
-  .fourthProject {
+  .fourthProject, .sixthProject {
     display: flex;
     flex-direction: row-reverse;
     border-top: none;
