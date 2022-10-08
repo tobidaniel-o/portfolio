@@ -396,7 +396,6 @@ footer {
   }
   .about {
     display: flex;
-    justify-content: space-between;
   }
 
   .aboutMe {
@@ -405,13 +404,14 @@ footer {
   }
 
   .imgContainer {
-    width: 40%;
+    width: 150px;
     display: block;
+    margin-left: 25rem;
   }
 
   .imgContainer img {
-    /* height: 100%; */
     object-position: contain;
+    border-radius: 10px;
   }
 
   /* NAVIGATION */
